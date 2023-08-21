@@ -1,17 +1,16 @@
 import React from "react";
 
-const HeroBanner = () => {
-  return (
-    <div
-      className="bg-cover bg-center min-h-screen flex items-center justify-center"
-      style={{ backgroundImage: `url('https://source.unsplash.com/random')` }}
-    >
-      <div className="text-white text-center">
-        <h1 className="text-5xl font-bold mb-4">Hero Title</h1>
-        <p className="text-2xl">Hero Subtitle</p>
-      </div>
+const HeroBanner = () => (
+  <div className="flex items-center justify-center h-screen bg-green-400">
+    <div className="text-center">
+      <h1 className="text-4xl font-bold text-white mb-4">
+        Welcome to our website
+      </h1>
+      <p className="text-xl text-white">
+        Discover the beauty of nature with our earth-inspired designs
+      </p>
     </div>
-  );
-};
+  </div>
+);
 
 export default HeroBanner;

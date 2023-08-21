@@ -1,13 +1,8 @@
 import React from "react";
 
 const Header = () => (
-  <header className="flex items-center justify-between bg-gray-900 p-4">
-    <img
-      src="https://source.unsplash.com/random"
-      alt="Company Logo"
-      className="w-12 h-12 rounded-full"
-    />
-    <h1 className="text-white text-lg font-semibold ml-2">Company Name</h1>
+  <header className="flex items-center justify-center h-24 bg-gradient-to-r from-blue-500 to-green-500">
+    <h1 className="text-4xl font-bold text-white">Company Name</h1>
   </header>
 );
 
