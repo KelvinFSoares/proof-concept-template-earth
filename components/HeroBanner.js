@@ -1,14 +1,10 @@
 import React from "react";
 
-const HeroBanner = () => (
+const HeroBanner = ({ title, subtitle }) => (
   <div className="flex items-center justify-center h-screen bg-green-400">
     <div className="text-center">
-      <h1 className="text-4xl font-bold text-white mb-4">
-        Welcome to our website
-      </h1>
-      <p className="text-xl text-white">
-        Discover the beauty of nature with our earth-inspired designs
-      </p>
+      <h1 className="text-4xl font-bold text-white mb-4">{title}</h1>
+      <p className="text-xl text-white">{subtitle}</p>
     </div>
   </div>
 );
